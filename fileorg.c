@@ -57,7 +57,7 @@ void searchFile(struct dir *d) {
 
     for(int i = 0; i < d->findex; i++){
         if(strcmp(d->file[i], filename) == 0){
-            printf("File %s found. Position : %d\n", filename, d->findex);
+            printf("File '%s' found.\n", filename);
             return;
         }
     }
