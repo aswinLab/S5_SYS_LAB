@@ -136,3 +136,52 @@ int main() {
     return 0;
 }
 
+
+/*  Enter directory name: aswin
+
+Options:
+Create a new file - n
+Delete a file - d
+Search for a file - s
+List all available files - l
+Rename a file - rn
+Exit - e
+Enter option: n
+Enter filename: aswin
+File created!
+
+Enter option: n
+Enter filename: a
+File created!
+
+Enter option: n
+Enter filename: b
+File created!
+
+Enter option: l
+Files in directory 'aswin':
+1. aswin
+2. a
+3. b
+
+Enter option: s
+Enter filename to search: aswin
+File 'aswin' found.
+
+Enter option: d
+Enter filename to delete: aswin
+File deleted successfully.
+
+Files in directory 'aswin':
+1. a
+2. b
+
+Enter option: rn
+Enter filename to rename: a
+Enter new filename: c
+File renamed successfully.
+
+*/
+
+
+
